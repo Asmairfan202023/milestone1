@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    display:flex ;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    
+    font-size: 2.5em;
+    color: #333;
+      }
+  
+  header p {
+    font-size: 1.2em;
+    color: #777;
+    margin-top: 30px;
+  }
+  
+  div {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #333;
+  }
+  .round-image  {
+  margin-right: 20px;
+}
+
+.round-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover;
+  border: 3px solid #4CAF50;
+}
+
+      
+  
+  .job, .school {
+    margin-bottom: 20px;
+  }
+  
+  .job h3, .school h3 {
+    font-size: 1.4em;
+    color: #555;
+  }
+  
+  .date {
+    font-style: italic;
+    color: #999;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #ff6347;
+  }
+  
